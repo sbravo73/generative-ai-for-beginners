@@ -9,7 +9,7 @@ dotenv.load_dotenv()
 client = OpenAI()
 
 #deployment=os.environ['OPENAI_DEPLOYMENT']
-deployment="gpt-3.5-turbo"
+deployment="gpt-4o-mini"
 
 # add your completion code
 prompt = "Complete the following: Once upon a time there was a"
